@@ -41,18 +41,3 @@
     </div>
 </body>
 </html>
-
-<script type="text/javascript">
-
-function clearFriends() {
-    alert("Clearing...");
-
-    // Clear the tables on the server and then empty the elements on the client
-    $.ajax({ url: "/api/clear", method: "POST" }).then(function() {
-      $("#friends").empty();
-    });
-  }
-
-  $("#clear").on("click", clearFriends);
-
-</script>
