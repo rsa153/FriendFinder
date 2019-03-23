@@ -182,7 +182,7 @@
                         </select>
 
                         <br>
-                        
+
                         <!-- This is where an error is displayed to user if an option isn't selected for each of the 10 questions listed below. -->
                         <strong>
                             <div class="error" id="q-error" style="color:red"></div>
@@ -280,7 +280,7 @@
 
         // If a selection is not made for any of the questions, display error. Otherwise, do not display error.
         if (q1 === '' || q2 === '' || q3 === '' || q4 === '' || q5 === '' || q6 === '' || q7 === '' || q8 === '' || q9 === '' || q10 === '') {
-            $("#q-error").html("You have left a question blank! Please make sure to answer all of the questions below before you submit.<p></p>")
+            $("#q-error").html("You have left a question blank! Please make sure to make a selection for all of the questions above before you submit.<p></p>")
             return false;
         } else {
             $("#q-error").empty();
