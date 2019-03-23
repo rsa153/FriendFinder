@@ -24,9 +24,9 @@ Below is a description (with screenshots) of how you will interact with the appl
 
 At the bottom of the survey screen, there are links to the following:
 <ul>
-API Friend List: A list of friends data who you will be compared to.
-Github Repo: So you can view the application code.
-Home: So you can navigate back to the home page.
+  <li>API Friend List: A list of friends data who you will be compared to.</li>
+  <li>Github Repo: So you can view the application code.</li>
+  <li>Home: So you can navigate back to the home page.</li>
 </ul>
 
 To view the app on my portfolio, please visit: https://rsa153.github.io/portfolioupdate/
