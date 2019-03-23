@@ -54,11 +54,6 @@
 
                     <hr>
 
-                    <!-- This is where an error is displayed to user if an option isn't selected for each of the 10 questions listed below. -->
-                    <strong>
-                        <div class="error" id="q-error" style="color:red"></div>
-                    </strong>
-
                     <!-- Prompts user to select one of 5 answer for the 10 questions -->
                     <div class="form-group">
                         <h5><strong>Question 1: </strong>Your mind is always buzzing with unexplored ideas and plans.
@@ -187,6 +182,11 @@
                         </select>
 
                         <br>
+                        
+                        <!-- This is where an error is displayed to user if an option isn't selected for each of the 10 questions listed below. -->
+                        <strong>
+                            <div class="error" id="q-error" style="color:red"></div>
+                        </strong>
 
                         <!-- Submit button for form -->
                         <button type="submit" class="btn btn-primary" id="submit">Submit</button>
